@@ -13,6 +13,9 @@ gem 'sdoc',         '~> 0.4.0', group: :doc
 
 group :development, :test do
   gem 'byebug'
+end
+
+group :development do
   gem 'web-console', '~> 2.0'
   gem 'spring'
 end
@@ -20,7 +23,7 @@ end
 group :test do
   gem 'minitest-reporters'
   gem 'mini_backtrace'
-  gem 'guard-minitest'
+  gem 'guard-minitest', '2.3.1'
 end
 
 group :production do
